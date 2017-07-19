@@ -1,0 +1,59 @@
+<div class="col-sm-6">
+    <li>
+	<p>
+	    Check out another project that I was part of, it is a Facebook app 
+	    <a href="https://www.facebook.com/ballparksivevisited/" target="_blank">Ballparks I've Visited</a>. Use to manage MLB-ballpark visitation and share visited parks to Facebook's feed. I helped write it in Javascript using the Angular framework.
+	</p>
+    </li>
+</div>
+<div class="col-sm-6">
+    <div id="bpCarousel" class="carousel slide" data-ride="carousel">
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+	    <li data-target="#bpCarousel" data-slide-to="0" class="active"></li>
+	    <li data-target="#bpCarousel" data-slide-to="1"></li>
+	    <li data-target="#bpCarousel" data-slide-to="2"></li>
+	</ol>
+
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner">
+	    <div class="item active">
+		<%= link_to image_tag("Phase1EER.png", alt: "EER Diagram Phase 1", class: "img-responsive"), 'https://drive.google.com/open?id=0B1r7m2GYBGugX1BxNHFiMlYxUEk', target: :_blank %>
+		<div class="carousel-caption">
+		    <p>Enhanced Entity Relationship Initial</p>
+		</div>
+	    </div>
+
+	    <div class="item">
+		<%= link_to image_tag("Phase2EER.png", alt: "EER Diagram Phase 2", class: "img-responsive"), 'https://drive.google.com/open?id=0B1r7m2GYBGugWjMyNWJ3VnhKZDg', target: :_blank %>
+		<div class="carousel-caption">
+		    <p>Phase 2 Enhanced Entity Relationship</p>
+		</div>
+	    </div>
+
+	    <div class="item">
+		<%= link_to image_tag("Phase3Relational.png", alt: "Phase 3 Relational Diagram", class: "img-responsive"), 'https://drive.google.com/open?id=0B3b91e-xtLxETmFPLWg2aWZ6SWs', target: :_blank %>
+		<div class="carousel-caption">
+		    <p>Phase 3 Relational Schema</p>
+		</div>
+	    </div>
+
+	    <div class="item">
+		<%= link_to image_tag("Phase4EER.png", alt: "EER Diagram Phase 4", class: "img-responsive"), 'https://drive.google.com/open?id=0B1r7m2GYBGugblF2U0hIRW5oZHM', target: :_blank %>
+		<div class="carousel-caption">
+		    <p>Enhanced Entity Relational Final</p>
+		</div>
+	    </div>
+	</div>
+
+	<!-- Left and right controls -->
+	<a class="left carousel-control" href="#bpCarousel" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left"></span>
+	    <span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#bpCarousel" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right"></span>
+	    <span class="sr-only">Next</span>
+	</a>
+    </div>
+</div>

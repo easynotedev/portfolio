@@ -1,0 +1,59 @@
+<div class="col-sm-6">
+    <li>
+	<p>
+	    During my software development class, we developed a web application using a bottom-up approach, such as SCRUM. The app was used to manage nurses clinical schedules. It was presented to the nursing department and was chosen as the best app among its competition. We started with a waterfall approach, but change to an Agile methodolgy, around the last phase of our devolpment cycle. The malleability of Rails, made it easy to changes development models, even at the final phases of the project. You can check out the five phases we accomplish here, <a href="https://drive.google.com/drive/folders/0B3b91e-xtLxEcnIyTGxmdDE3b0k?usp=sharing" target="_blank">5 phases</a>. The web app was called <a href="https://sium.herokuapp.com/" target="_blank">SIUM</a> ,we used Rail's gems to an adapt them to exhibit a scheduling type of functionality, such as a <a href="https://rubygems.org/gems/twitter-bootstrap-calendar/versions/0.0.5" target="_blank">Twitter bootstrap calendar gem</a>, we added a functionality by using it to account for user schedules.
+	</p>
+    </li>
+</div>
+<div class="col-sm-6">
+    <div id="siumCarousel" class="carousel slide" data-ride="carousel">
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+	    <li data-target="#siumCarousel" data-slide-to="0" class="active"></li>
+	    <li data-target="#siumCarousel" data-slide-to="1"></li>
+	    <li data-target="#siumCarousel" data-slide-to="2"></li>
+	    <li data-target="#siumCarousel" data-slide-to="3"></li>
+	</ol>
+
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner">
+	    <div class="item active">
+		<%= link_to image_tag("Phase1EER.png", alt: "EER Diagram Phase 1", class: "img-responsive"), 'https://drive.google.com/open?id=0B1r7m2GYBGugX1BxNHFiMlYxUEk', target: :_blank %>
+		<div class="carousel-caption">
+		    <p>Enhanced Entity Relationship Initial</p>
+		</div>
+	    </div>
+
+	    <div class="item">
+		<%= link_to image_tag("Phase2EER.png", alt: "EER Diagram Phase 2", class: "img-responsive"), 'https://drive.google.com/open?id=0B1r7m2GYBGugWjMyNWJ3VnhKZDg', target: :_blank %>
+		<div class="carousel-caption">
+		    <p>Phase 2 Enhanced Entity Relationship</p>
+		</div>
+	    </div>
+
+	    <div class="item">
+		<%= link_to image_tag("Phase3Relational.png", alt: "Phase 3 Relational Diagram", class: "img-responsive"), 'https://drive.google.com/open?id=0B3b91e-xtLxETmFPLWg2aWZ6SWs', target: :_blank %>
+		<div class="carousel-caption">
+		    <p>Phase 3 Relational Schema</p>
+		</div>
+	    </div>
+
+	    <div class="item">
+		<%= link_to image_tag("Phase4EER.png", alt: "EER Diagram Phase 4", class: "img-responsive"), 'https://drive.google.com/open?id=0B1r7m2GYBGugblF2U0hIRW5oZHM', target: :_blank %>
+		<div class="carousel-caption">
+		    <p>Enhanced Entity Relational Final</p>
+		</div>
+	    </div>
+	</div>
+
+	<!-- Left and right controls -->
+	<a class="left carousel-control" href="#siumCarousel" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left"></span>
+	    <span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#siumCarousel" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right"></span>
+	    <span class="sr-only">Next</span>
+	</a>
+    </div>
+</div>

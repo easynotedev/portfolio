@@ -1,0 +1,69 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.img-circle {
+    margin: auto;  
+    position: absolute;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.video-bg {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 330px;
+    margin: 0 auto;
+    overflow: hidden;
+    transition: background-color 250ms;
+}
+
+.video {
+    position:absolute;
+    left:50%;
+    top:50%;
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+}
+
+#porf-row{
+    height: 400px;
+}
+
+.carousel {
+  width:576px;
+  height:360px;
+  right: 20px;
+  padding:0px 10px 0px 10px;
+}
+
+.carousel-caption {
+    position: relative;
+    top: -50px;
+    color: black;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.carousel-indicators {
+    bottom: 30px;
+    li {
+	margin: 0 2px;
+	width: 15px;
+	height: 15px;
+	border: none;
+	background-color: #99def8;
+    }
+    .active {
+	margin: 0 2px;
+	width: 15px;
+	height: 15px;
+	border: none;
+	background-color: #00aced;
+    }
+}
