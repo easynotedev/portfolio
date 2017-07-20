@@ -10,7 +10,8 @@
 
 $gray-medium-light: #eaeaea;
 $gray-h2-readable: #38393a;
-$twitter-logo: #00aced;
+// $twitter-logo: #1f58bb;
+$twitter-logo: #5983cd;
 
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
@@ -88,7 +89,6 @@ p {
   margin-right: 10px;
   font-size: 1.7em;
   color: $twitter-logo;
-  // text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
