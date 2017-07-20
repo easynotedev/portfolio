@@ -1,0 +1,68 @@
+<div class="col-sm-6">
+    <p>
+	<a href="https://thewterclone.herokuapp.com" target="_blank">Thewter Clone</a> is a primitive twitter clone that has basic website functionalities and basic twitter functionalities. This App is built in Rails following conventions implemented in various Ruby gems:
+	<ul>
+	    <li>
+		using password digest stored as hashes instead of saving the actual password in the PostgresSQL database.
+	    </li>
+	    <li>
+		uses Carrierwave for uploading images and  mini_magick for resizing the image to a manageable size, then saving them to a AWS bucket.
+	    </li>
+	    <li>
+		Used a Test Driven Approach by using Minitest, and created fake users using Faker.
+	    </li>
+	</ul>
+    </p>
+</div>
+<div class="col-sm-6">
+    <div id="tcCarousel" class="carousel slide" data-ride="carousel">
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+	    <li data-target="#tcCarousel" data-slide-to="0" class="active"></li>
+	    <li data-target="#tcCarousel" data-slide-to="1"></li>
+	    <li data-target="#tcCarousel" data-slide-to="2"></li>
+	    <li data-target="#tcCarousel" data-slide-to="3"></li>
+	</ol>
+
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner">
+	    <div class="item active">
+		<%= link_to image_tag("tcpx1.png", alt: "Thewter Clone, micropost on feed", class: "img-responsive"), 'https://thewterclone.herokuapp.com', target: :_blank %>
+		<div class="carousel-caption">
+		    <p>Successful Micropost, with image</p>
+		</div>
+	    </div>
+
+	    <div class="item">
+		<%= link_to image_tag("tcpx2.png", alt: "Account Activation", class: "img-responsive"), 'https://thewterclone.herokuapp.com', target: :_blank %>
+		<div class="carousel-caption">
+		    <p>Account Activated, Heroku's sendgrid</p>
+		</div>
+	    </div>
+
+	    <div class="item">
+		<%= link_to image_tag("tcpx3.png", alt: "Fake Users", class: "img-responsive"), 'https://thewterclone.herokuapp.com', target: :_blank %>
+		<div class="carousel-caption">
+		    <p>Produced Fake Accounts</p>
+		</div>
+	    </div>
+
+	    <div class="item">
+		<%= link_to image_tag("tcpx4.png", alt: "Test Driven Development", class: "img-responsive"), 'https://thewterclone.herokuapp.com', target: :_blank %>
+		<div id="tcpx4-cap" class="carousel-caption">
+		    <p>Minitest</p>
+		</div>
+	    </div>
+	</div>
+
+	<!-- Left and right controls -->
+	<a class="left carousel-control" href="#tcCarousel" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left"></span>
+	    <span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#tcCarousel" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right"></span>
+	    <span class="sr-only">Next</span>
+	</a>
+    </div>
+</div>

@@ -50,6 +50,11 @@
     font-weight: 600;
 }
 
+#tcpx4-cap {
+    color: white;
+}
+
+
 .carousel-indicators {
     bottom: 30px;
     li {
@@ -66,4 +71,9 @@
 	border: none;
 	background-color: #00aced;
     }
+}
+
+#siumdbimg-link {
+    pointer-events: none;
+    cursor: default;
 }
