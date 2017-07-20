@@ -32,14 +32,41 @@
 }
 
 #porf-row{
-    height: 400px;
+    height: 475px;
+    margin-right: -169px;
+    padding-right: 15px;
+    margin-left: -97px;   
+}
+
+#porf-col{
+    padding: 0px 40px 0px 3%;
 }
 
 .carousel {
-  width:576px;
+  width:590px;
   height:360px;
-  right: 20px;
-  padding:0px 10px 0px 10px;
+  right: 35px;
+  padding:0px 10px 10px 10px;
+}
+
+.carousel-inner > .item.active {
+    padding-left: 15px;
+    padding-right: 70px;
+    > a > img{
+    	height: 360px;
+    }
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    height: 360px;
+}
+
+.carousel-control.left {
+    left: 25px;
+}
+
+.carousel-control.right {
+    right:79px;
 }
 
 .carousel-caption {
@@ -48,6 +75,10 @@
     color: black;
     font-family: monospace;
     font-weight: 600;
+    left: 0px;
+    p {
+	text-align:center;
+    }
 }
 
 #tcpx4-cap {
@@ -56,6 +87,7 @@
 
 
 .carousel-indicators {
+    left: 45%;
     bottom: 30px;
     li {
 	margin: 0 2px;
@@ -73,7 +105,8 @@
     }
 }
 
-#siumdbimg-link {
-    pointer-events: none;
-    cursor: default;
-}
+// #siumdbimg-link {
+//     height: 300px;
+//     pointer-events: none;
+//     cursor: default;
+// }
