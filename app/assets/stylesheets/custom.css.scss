@@ -10,7 +10,6 @@
 
 $gray-medium-light: #eaeaea;
 $gray-h2-readable: #38393a;
-// $twitter-logo: #1f58bb;
 $twitter-logo: #5983cd;
 
 @mixin box_sizing {
@@ -43,14 +42,16 @@ textarea {
     }
 }
 
-#sign_up_box{
-    background-color: rgba(0, 0, 0, 0.075);
-    box-shadow: 3px 3px 9px black;
-    
-    /* set border roundness */
-    border-radius: 15px;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
+/* Home skill-list */
+
+.list-group {
+    margin-bottom: 20px;
+    width: auto;
+    text-align: -webkit-left;
+}
+
+.list-group-item {
+    padding: 1px 10px 10;
 }
 
 /* typography */
@@ -62,17 +63,22 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 3em;
   letter-spacing: -2px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
 h2 {
   font-size: 1.2em;
   letter-spacing: -1px;
-  margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
   color: $gray-h2-readable;
+}
+
+.col-sm-4 {
+    h3 {
+	margin-bottom: 40px;
+    }
 }
 
 p {
