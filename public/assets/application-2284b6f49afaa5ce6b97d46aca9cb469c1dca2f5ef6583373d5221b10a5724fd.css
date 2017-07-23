@@ -8790,69 +8790,76 @@ button.close {
 }
 /* mixins, variables, etc. */
 /* universal */
-/* line 24, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 23, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 body {
   padding-top: 60px;
 }
 
-/* line 28, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 27, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 section {
   overflow: auto;
 }
 
-/* line 32, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 31, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 36, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 35, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .jumbotron.center {
   text-align: center;
 }
-/* line 38, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 37, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .jumbotron.center h1 {
   margin-bottom: 10px;
 }
-/* line 41, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 40, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .jumbotron.center ul {
   list-style: none;
 }
 
-/* line 46, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
-#sign_up_box {
-  background-color: rgba(0, 0, 0, 0.075);
-  box-shadow: 3px 3px 9px black;
-  /* set border roundness */
-  border-radius: 15px;
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
+/* Home skill-list */
+/* line 47, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+.list-group {
+  margin-bottom: 20px;
+  width: auto;
+  text-align: -webkit-left;
+}
+
+/* line 53, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+.list-group-item {
+  padding: 1px 10px 10;
 }
 
 /* typography */
-/* line 58, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 59, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
 
-/* line 62, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 63, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 h1 {
   font-size: 3em;
   letter-spacing: -2px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
-/* line 69, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 70, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 h2 {
   font-size: 1.2em;
   letter-spacing: -1px;
-  margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
   color: #38393a;
 }
 
-/* line 78, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 79, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+.col-sm-4 h3 {
+  margin-bottom: 40px;
+}
+
+/* line 84, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 p {
   font-size: 1.1em;
   line-height: 1.7em;
@@ -8860,7 +8867,7 @@ p {
 }
 
 /* header */
-/* line 87, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 93, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 #logo {
   float: left;
   margin-right: 10px;
@@ -8870,45 +8877,45 @@ p {
   padding-top: 9px;
   font-weight: bold;
 }
-/* line 95, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 101, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 #logo:hover {
   color: #b3b3b3;
   text-decoration: none;
 }
 
 /* footer */
-/* line 103, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 109, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #b3b3b3;
 }
-/* line 108, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 114, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 footer a {
   color: #555555;
 }
-/* line 110, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 116, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 footer a:hover {
   color: #222222;
 }
-/* line 114, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 120, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 footer small {
   float: left;
 }
-/* line 117, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 123, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 footer ul {
   float: right;
   list-style: none;
 }
-/* line 120, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 126, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 footer ul li {
   float: left;
   margin-left: 15px;
 }
 
 /* miscellaneous */
-/* line 130, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 136, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .debug_dump {
   clear: both;
   float: left;
@@ -8920,27 +8927,27 @@ footer ul li {
 }
 
 /* sidebar */
-/* line 141, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 147, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 aside section.user_info {
   margin-top: 20px;
 }
-/* line 144, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 150, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 aside section {
   padding: 10px 0;
   margin-top: 20px;
 }
-/* line 147, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 153, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 aside section:first-child {
   border: 0;
   padding-top: 0;
 }
-/* line 151, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 157, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 aside section span {
   display: block;
   margin-bottom: 3px;
   line-height: 1;
 }
-/* line 156, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 162, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 aside section h1 {
   font-size: 1.4em;
   text-align: left;
@@ -8949,66 +8956,66 @@ aside section h1 {
   margin-top: 0px;
 }
 
-/* line 166, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 172, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .gravatar {
   float: left;
   margin-right: 10px;
 }
 
-/* line 171, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 177, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .gravatar_edit {
   margin-top: 15px;
 }
 
-/* line 175, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 181, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .stats {
   overflow: auto;
   margin-top: 0;
   padding: 0;
 }
-/* line 179, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 185, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .stats a {
   float: left;
   padding: 0 10px;
   border-left: 1px solid #eeeeee;
   color: gray;
 }
-/* line 184, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 190, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .stats a:first-child {
   padding-left: 0;
   border: 0;
 }
-/* line 188, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 194, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .stats a:hover {
   text-decoration: none;
   color: blue;
 }
-/* line 193, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 199, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .stats strong {
   display: block;
 }
 
-/* line 198, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 204, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .user_avatars {
   overflow: auto;
   margin-top: 10px;
 }
-/* line 201, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 207, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .user_avatars .gravatar {
   margin: 1px 1px;
 }
-/* line 204, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 210, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .user_avatars a {
   padding: 0;
 }
 
-/* line 209, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 215, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .users.follow {
   padding: 0;
 }
 
 /* forms */
-/* line 215, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 221, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
@@ -9018,50 +9025,50 @@ input, textarea, select, .uneditable-input {
   box-sizing: border-box;
 }
 
-/* line 222, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 228, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 input {
   height: auto !important;
 }
 
-/* line 226, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 232, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 #error_explanation {
   color: red;
 }
-/* line 228, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 234, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 #error_explanation ul {
   color: red;
   margin: 0 0 30px 0;
 }
 
-/* line 236, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 242, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .field_with_errors .form-control {
   color: #d9534f;
 }
 
-/* line 240, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 246, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .checkbox {
   margin-top: -10px;
   margin-bottom: 10px;
 }
-/* line 243, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 249, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .checkbox span {
   margin-left: 20px;
   font-weight: normal;
 }
 
-/* line 249, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 255, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 #session_remember_me {
   width: auto;
   margin-left: 0;
 }
 
 /* Users index */
-/* line 256, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 262, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .users {
   list-style: none;
   margin: 0;
 }
-/* line 259, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 265, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .users li {
   overflow: auto;
   padding: 10px 0;
@@ -9069,55 +9076,55 @@ input {
 }
 
 /* microposts */
-/* line 268, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 274, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .microposts {
   list-style: none;
   padding: 0;
 }
-/* line 271, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 277, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .microposts li {
   padding: 10px 0;
   border-top: 1px solid #e8e8e8;
 }
-/* line 275, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 281, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .microposts .user {
   margin-top: 5em;
   padding-top: 0;
 }
-/* line 279, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 285, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .microposts .content {
   display: block;
   margin-left: 60px;
 }
-/* line 282, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 288, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .microposts .content img {
   display: block;
   padding: 5px 0;
 }
-/* line 287, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 293, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .microposts .timestamp {
   color: #b3b3b3;
   display: block;
   margin-left: 60px;
 }
-/* line 292, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 298, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 .microposts .gravatar {
   float: left;
   margin-right: 10px;
   margin-top: 5px;
 }
 
-/* line 300, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 306, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 aside textarea {
   height: 100px;
   margin-bottom: 5px;
 }
 
-/* line 306, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 312, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 span.picture {
   margin-top: 10px;
 }
-/* line 308, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
+/* line 314, /home/myharpynest/github/portfolio/app/assets/stylesheets/custom.css.scss */
 span.picture input {
   border: 0;
 }
@@ -9304,7 +9311,7 @@ legend {
   display: block;
   position: relative;
   width: 100%;
-  height: 575px;
+  height: 475px;
   margin: 0 auto;
   overflow: hidden;
   transition: background-color 250ms;
@@ -9320,36 +9327,76 @@ legend {
 
 /* line 34, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
 #porf-row {
-  height: 400px;
+  height: 475px;
+  margin-right: -169px;
+  padding-right: 15px;
+  margin-left: -97px;
 }
 
-/* line 38, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
-.carousel {
-  width: 576px;
-  height: 360px;
-  right: 20px;
-  padding: 0px 10px 0px 10px;
+/* line 41, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
+#porf-col {
+  padding: 0px 40px 0px 3%;
 }
 
 /* line 45, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
+.carousel {
+  width: 590px;
+  height: 360px;
+  right: 35px;
+  padding: 0px 10px 10px 10px;
+}
+
+/* line 52, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
+.carousel-inner > .item.active {
+  padding-left: 15px;
+  padding-right: 70px;
+}
+/* line 55, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
+.carousel-inner > .item.active > a > img {
+  height: 360px;
+}
+
+/* line 60, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  height: 360px;
+}
+
+/* line 64, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
+.carousel-control.left {
+  left: 25px;
+}
+
+/* line 68, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
+.carousel-control.right {
+  right: 79px;
+}
+
+/* line 72, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
 .carousel-caption {
   position: relative;
   top: -50px;
   color: black;
   font-family: monospace;
   font-weight: 600;
+  left: 0px;
+  color: #333333;
+}
+/* line 80, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
+.carousel-caption p {
+  text-align: center;
 }
 
-/* line 53, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
-#tcpx4-cap {
-  color: white;
+/* line 85, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
+#unseen-carousel-cap {
+  color: #aac8ff;
 }
 
-/* line 58, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
+/* line 90, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
 .carousel-indicators {
+  left: 45%;
   bottom: 30px;
 }
-/* line 60, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
+/* line 93, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
 .carousel-indicators li {
   margin: 0 2px;
   width: 15px;
@@ -9357,7 +9404,7 @@ legend {
   border: none;
   background-color: #99def8;
 }
-/* line 67, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
+/* line 100, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
 .carousel-indicators .active {
   margin: 0 2px;
   width: 15px;
@@ -9366,10 +9413,10 @@ legend {
   background-color: #00aced;
 }
 
-/* line 76, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
-#siumdbimg-link {
-  pointer-events: none;
-  cursor: default;
+/* line 109, /home/myharpynest/github/portfolio/app/assets/stylesheets/static_pages.scss */
+.list-group-item {
+  padding: 5px 5px 5px 5px;
+  text-align: left;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
